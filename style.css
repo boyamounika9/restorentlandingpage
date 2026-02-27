@@ -45,12 +45,12 @@ ul{
     flex-direction: column;
 }
 .heading1{
-    font-size: 30px;
+    font-size: 35px;
     font-style: italic;
     color: aliceblue;
 }
 .heading2{
-    font-size: 80px;
+    font-size: 90px;
     color: aliceblue;
     font-weight: bold;
 }
@@ -66,11 +66,13 @@ button{
     background: none;
     border:2px solid aliceblue ;
     margin-top: 30px;
+    transition: 0.3s;
 }
-button :hover{
+
+button:hover{
     background-color: orange;
     color: aliceblue;
-
+    cursor: pointer;
 }
 .food{
     background: url(food1.png);
