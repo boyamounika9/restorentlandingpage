@@ -67,6 +67,11 @@ button{
     border:2px solid aliceblue ;
     margin-top: 30px;
 }
+button :hover{
+    background-color: orange;
+    color: aliceblue;
+
+}
 .food{
     background: url(food1.png);
     height: 500px;
